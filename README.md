@@ -53,5 +53,7 @@ Extrudrboard schematic, components, and component packages, so this
 should be highly compatible with whatever manufacturing process
 Printrbot had for the original Extrudrboard.
 
+Announcement/discussion at http://forum.monstercafe.net/topic5.html
+
 -- C. Scott Ananian <cscott@cscott.net>
    Printrbot owner since Christmas 2014
