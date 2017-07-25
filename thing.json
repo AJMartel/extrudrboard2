@@ -15,6 +15,10 @@
     "licenses":[
        "GPL3"
     ],
+    "thumbnailUrls":[
+        "Extrudrboard2.sch.png",
+        "Extrudrboard2-thunk.sch.png"
+    ],
     "tags": [ "printrbot", "extrudrboard", "extrudrboard2" ],
     "billOfMaterials": [
         {
@@ -23,10 +27,18 @@
             "url":"Extrudrboard2.sch",
             "type":"source",
             "mimetype":"application/x-eagle",
-            "thumbnailUrl": "Extrudrboard2.sch.pdf"
+            "thumbnailUrl": "Extrudrboard2.sch.png"
         },
         {
             "partNumber":"2",
+            "description":"Extrudrboard2 schematic (PDF)",
+            "url":"Extrudrboard2.sch.pdf",
+            "type":"generated",
+            "mimetype":"application/pdf",
+            "thumbnailUrl": "Extrudrboard2.sch.png"
+        },
+        {
+            "partNumber":"3",
             "description":"Extrudrboard2 pcb",
             "url":"Extrudrboard2.brd",
             "type":"source",
@@ -34,15 +46,23 @@
             "thumbnailUrl": "Extrudrboard2.brd.pdf"
         },
         {
-            "partNumber":"3",
+            "partNumber":"4",
             "description":"Extrudrboard2 thunk schematic",
             "url":"Extrudrboard2-thunk.sch",
             "type":"source",
             "mimetype":"application/x-eagle",
-            "thumbnailUrl": "Extrudrboard2.sch.pdf"
+            "thumbnailUrl": "Extrudrboard2.sch.png"
         },
         {
-            "partNumber":"4",
+            "partNumber":"5",
+            "description":"Extrudrboard2 thunk schematic (PDF)",
+            "url":"Extrudrboard2-thunk.sch.pdf",
+            "type":"generated",
+            "mimetype":"application/pdf",
+            "thumbnailUrl": "Extrudrboard2.sch.png"
+        },
+        {
+            "partNumber":"6",
             "description":"Extrudrboard2 thunk pcb",
             "url":"Extrudrboard2-thunk.brd",
             "type":"source",
