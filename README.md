@@ -1,5 +1,5 @@
-# extrudrboard2
-Hardware for a proposed revision of the Extrudrboard for
+# Extrudrboard2
+Proposed revision of Printrbot Extrudrboard for
 multi-color/multimaterial printing
 
 The latest revision of the Printrboard (REV F6) is mildly incompatible
@@ -35,7 +35,7 @@ software cleverness is needed to allow multiplexing different
 extruders with potentially different steps/mm rates.
 
 There are two versions of the board here.  The
-[`Extrudrboard2.sch`](./Extrudrboard2.sch.pdf) files are an initial
+[`Extrudrboard2-thunk.sch`](./Extrudrboard2-thunk.sch.pdf) files are an initial
 prototype that allows you to connect two original Extrudrboards to the
 Printrboard using the new multiplexing signal scheme.  It uses some
 random logic ICs for the multiplexer that I just happened to have in
@@ -46,8 +46,8 @@ untested!
 
 If Printrbot decided to actually adopt this "project" as a "product",
 they'd want something more like
-[`Extrudrboard.sch`](./Extrudrboard.sch.pdf), which integrates the
-four stepper drivers from the two old extrudrboard into a single new
+[`Extrudrboard2.sch`](./Extrudrboard2.sch.pdf), which integrates the
+four stepper drivers from the two old extrudrboards into a single new
 board.  I actually reused as much as possible of the original
 Extrudrboard schematic, components, and component packages, so this
 should be highly compatible with whatever manufacturing process
@@ -55,5 +55,4 @@ Printrbot had for the original Extrudrboard.
 
 Announcement/discussion at http://forum.monstercafe.net/topic5.html
 
--- C. Scott Ananian <cscott@cscott.net>
-   Printrbot owner since Christmas 2014
+                      -- C. Scott Ananian <cscott@cscott.net>
