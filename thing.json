@@ -16,8 +16,13 @@
        "GPL3"
     ],
     "thumbnailUrls":[
-        "Extrudrboard2.sch.png",
-        "Extrudrboard2-thunk.sch.png"
+        "imgs/Extrudrboard2.sch.png",
+        "imgs/Extrudrboard2-thunk.sch.png",
+        "imgs/Extrudrboard2-thunk.brd-front.jpg",
+        "imgs/Extrudrboard2-thunk.brd-back.jpg",
+        "imgs/Extrudrboard2-thunk.populated.jpg",
+        "imgs/Extrudrboard2-thunk.wiring.jpg",
+        "imgs/Extrudrboard.wiring.jpg"
     ],
     "tags": [ "printrbot", "extrudrboard", "extrudrboard2" ],
     "billOfMaterials": [
@@ -27,7 +32,7 @@
             "url":"Extrudrboard2.sch",
             "type":"source",
             "mimetype":"application/x-eagle",
-            "thumbnailUrl": "Extrudrboard2.sch.png"
+            "thumbnailUrl": "imgs/Extrudrboard2.sch.png"
         },
         {
             "partNumber":"2",
@@ -35,15 +40,14 @@
             "url":"Extrudrboard2.sch.pdf",
             "type":"generated",
             "mimetype":"application/pdf",
-            "thumbnailUrl": "Extrudrboard2.sch.png"
+            "thumbnailUrl": "imgs/Extrudrboard2.sch.png"
         },
         {
             "partNumber":"3",
             "description":"Extrudrboard2 pcb",
             "url":"Extrudrboard2.brd",
             "type":"source",
-            "mimetype":"application/x-eagle",
-            "thumbnailUrl": "Extrudrboard2.brd.pdf"
+            "mimetype":"application/x-eagle"
         },
         {
             "partNumber":"4",
@@ -51,7 +55,7 @@
             "url":"Extrudrboard2-thunk.sch",
             "type":"source",
             "mimetype":"application/x-eagle",
-            "thumbnailUrl": "Extrudrboard2.sch.png"
+            "thumbnailUrl": "imgs/Extrudrboard2.sch.png"
         },
         {
             "partNumber":"5",
@@ -59,7 +63,7 @@
             "url":"Extrudrboard2-thunk.sch.pdf",
             "type":"generated",
             "mimetype":"application/pdf",
-            "thumbnailUrl": "Extrudrboard2.sch.png"
+            "thumbnailUrl": "imgs/Extrudrboard2.sch.png"
         },
         {
             "partNumber":"6",
@@ -67,7 +71,7 @@
             "url":"Extrudrboard2-thunk.brd",
             "type":"source",
             "mimetype":"application/x-eagle",
-            "thumbnailUrl": "Extrudrboard2.brd.pdf"
+            "thumbnailUrl": "imgs/Extrudrboard2-thunk.brd-front.jpg"
         }
    ],
     "instructions":[
